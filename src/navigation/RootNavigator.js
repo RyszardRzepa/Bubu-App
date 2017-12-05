@@ -6,6 +6,7 @@ import CreateProjectScreen from '../screens/CreateProject';
 import ProjectListScreen from '../screens/ProjectListScreen';
 import AuthScreen from '../screens/AuthScreen';
 import RegisterUserAccount from '../components/RegisterAccountComponent';
+import AddReceiptScreen from '../screens/AddReceiptScreen';
 
 class RootNavigator extends React.Component {
   render() {
@@ -26,6 +27,7 @@ class RootNavigator extends React.Component {
       auth: { screen: AuthScreen },
       register_user: { screen: RegisterUserAccount },
       main: { screen: TabNav },
+      add_receipt: { screen: AddReceiptScreen }
     }, {
       navigationOptions: {
         headerTintColor: '#fff',
